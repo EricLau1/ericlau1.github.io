@@ -3,9 +3,17 @@
     src: url('../fonts/Gentona.otf');
 }
 body {
-   background-color: #000; 
+   background-color: #fff; 
     font-family: 'Montserrat', sans-serif;
-    color: #fff;
+    color: #000;
+}
+
+.text-black {
+    color: #000;
+}
+
+.text-purple {
+    color: #681CC3;
 }
 
 .f1 {

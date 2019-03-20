@@ -15,34 +15,48 @@
     <div class="container">
         <nav class="navbar navbar-expand-lg">
             <img src="img/cube.gif" class="navbar-brand" alt="cubo mágico" width="50" height="50" />
-            <button class="navbar-toggler btn btn-light text-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler btn btn-light text-dark" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <i class="fas fa-bars"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link text-white import-font" href="#"> <i class="fas fa-home"></i> Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link text-dark" href="#"> 
+                            <small> <i class="fas fa-home"></i> Home </small>
+                            <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white import-font" href="#about"><i class="fas fa-info-circle"></i>About</a>
+                        <a class="nav-link text-dark" href="#about">
+                            <small><i class="fas fa-info-circle"></i> About</small>
+                        </a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-white import-font" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <i class="fas fa-at"></i> Contact
+                        <a class="nav-link dropdown-toggle  text-dark" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <small>
+                                <i class="fas fa-at"></i> Contact
+                            </small>
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="https://github.com/EricLau1?tab=repositories"><i class="fab fa-github"></i> Github</a>
-                            <a class="dropdown-item" href="https://www.linkedin.com/in/ericlau2"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                            <a class="dropdown-item" href="https://github.com/EricLau1?tab=repositories">
+                                <small><i class="fab fa-github"></i> Github</small>
+                            </a>
+                            <a class="dropdown-item" href="https://www.linkedin.com/in/ericlau2">
+                                <small><i class="fab fa-linkedin"></i> LinkedIn</small>
+                            </a>
                         <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="?email=ericlau.oliveira@gmail.com"><i class="fas fa-envelope"></i> ericlau.oliveira@gmail.com</a>
+                            <a class="dropdown-item" href="?email=ericlau.oliveira@gmail.com">
+                                <small><i class="fas fa-envelope"></i> ericlau.oliveira@gmail.com</small>
+                            </a>
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white import-font" href="#repositories"><i class="fas fa-code-branch"></i> Repositories </a>
+                        <a class="nav-link  text-dark" href="#repositories">
+                            <small><i class="fas fa-code-branch"></i> Repositories</small>
+                        </a>
                     </li>
                 </ul>
                 <div class="form-inline my-2 my-lg-0">
-                        <a href="https://github.com/EricLau1?tab=repositories" class="btn btn-outline-light mr-2 btn-sm"><i class="fab fa-github-alt"></i> </a>
+                        <a href="https://github.com/EricLau1?tab=repositories" class="btn btn-outline-dark mr-2 btn-sm"><i class="fab fa-github-alt"></i> </a>
                         <a href="https://www.youtube.com/channel/UCr_3nxsd5v6g980xNese71w" class="btn btn-outline-danger mr-2 btn-sm"><i class="fab fa-youtube"></i> </a>
                         <a href="https://www.linkedin.com/in/ericlau2" class="btn btn-outline-info btn-sm"><i class="fab fa-linkedin-in"></i></a>
                 </div>
@@ -57,7 +71,7 @@
         <hr class="my-4" />
         <div class="row">
             <div class="col-md-6 my-4" id="about">
-                <h3 class="text-center font-weight-bold import-font"> About </h3>
+                <h3 class="text-center text-dark font-weight-bold import-font"> About </h3>
                 <hr />
                 <p>
                   Hi!<br />
@@ -71,7 +85,7 @@
               </p>
             </div>
               <div class="col-md-6 my-4" id="repositories">
-                <h3 class="text-center font-weight-bold import-font" id="repositories-title">My Repositories </h3>
+                <h3 class="text-center font-weight-bold text-dark import-font" id="repositories-title">Github Repositories </h3>
                 <div id="repositories-items">
                     <ul>
                         <li><a href="https://github.com/EricLau1/Go"><i class="fas fa-robot"></i> Golang</a></li>
@@ -88,7 +102,8 @@
                 </div>
             </div>
         </div> <!--end row-->
-        <div class="row my-4" id="award" style="background-color:#fff;">
+
+        <div class="row" id="award" style="background-color:#fff;">
             <div class="col-md-12 text-dark text-center">
                 <h5 class="import-font">
                     Award XI FEMA Scientific Forum Artificial Neural Networks for Recognition of Numerical Characters in Images
@@ -111,7 +126,7 @@
         </div>
         <div class="row">
             <footer class="col-md-12 f1">
-                <p class="text-center"> Created By Eric Lau de Oliveira - 2019 </p>
+                <p class="text-center text-muted"> <small>Created By Eric Lau de Oliveira - 2019</small>  </p>
             </footer>
         </div>
     </div>
