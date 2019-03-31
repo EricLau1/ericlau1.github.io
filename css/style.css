@@ -108,14 +108,19 @@ body {
 
 #award,
 #video-demo {
+    margin-top: 150px;
     border-radius: 5px;
-    padding: 20px 36px;
 }
 
 .import-font {
     font-family: 'Gentona';
 }
 
+footer {
+    background: #000;
+    padding: 50px;
+    margin-top: 150px;
+}
 
 
 
